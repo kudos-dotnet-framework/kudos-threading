@@ -23,4 +23,7 @@
         <WarningLevel>0</WarningLevel>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Kudos.Coring\Kudos.Coring.csproj" />
+    </ItemGroup>
 </Project>
