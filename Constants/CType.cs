@@ -13,7 +13,7 @@ namespace Kudos.Threading.Constants
             Task = fastTypeOf<Task>.Value,
 			Semaphore = fastTypeOf<Semaphore>.Value,
 			SemaphoreSlim = fastTypeOf<SemaphoreSlim>.Value,
-			MonitorizedObject = fastTypeOf<MonitorizedObject>.Value,
-			SemaphorizedObject = fastTypeOf<SemaphorizedObject>.Value;
+			SmartMonitor = fastTypeOf<SmartMonitor>.Value,
+			SmartSemaphoreSlim = fastTypeOf<SmartSemaphoreSlim>.Value;
 	}
 }
